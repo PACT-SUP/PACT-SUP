@@ -1,0 +1,13 @@
+name: pact
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.8
+  - numpy=2.5.1
+  - pandas=3.0.3
+  - rdkit=2026.03.3
+  - pip
+  - pip:
+      - scipy==1.18.0
+      - torch==2.12.1
+      - torch-geometric==2.8.0
